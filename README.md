@@ -9,7 +9,7 @@
 Features
 =============
 
-WorldPeso Coin – A Decentralized Data Sharing Platform, Hosting, and Content Distribution Network through Masternode Network.
+WorldPeso Coin – A Decentralized altcoin with Masternode Network.
 
 ## Coin Specifications
 
