@@ -2,14 +2,14 @@
 <img src="https://i.postimg.cc/9fyxbcGV/github.png" alt="wpso">
 
 <<<<<<< HEAD
-f
+
 =======
 
->>>>>>> parent of bbae1a2... undone
+
 Features
 =============
 
-WorldPeso Coin – A Decentralized Data Sharing Platform, Hosting, and Content Distribution Network through Masternode Network.
+WorldPeso Coin – A Decentralized altcoin with Masternode Network.
 
 ## Coin Specifications
 
