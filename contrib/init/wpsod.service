@@ -1,0 +1,26 @@
+[Unit]
+Description=wpso's distributed currency daemon
+After=network.target
+
+[Service]
+User=wpso
+Group=wpso
+
+Type=forking
+PIDFile=/var/lib/wpsod/wpsod.pid
+
+ExecStart=/usr/bin/wpsod -daemon -pid=/var/lib/wpsod/wpsod.pid \
+          -conf=/etc/wpso/wpso.conf -datadir=/var/lib/wpsod
+
+ExecStop=-/usr/bin/wpso-cli -conf=/etc/wpso/wpso.conf \
+         -datadir=/var/lib/wpsod stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

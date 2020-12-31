@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=wpso
+Comment=wpso P2P Cryptocurrency
+Comment[fr]=wpso, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=wpso, eşten eşe kriptografik sanal para birimi
+Exec=wpso-qt %u
+Terminal=false
+Type=Application
+Icon=wpso128
+MimeType=x-scheme-handler/wpso;
+Categories=Office;Finance;
